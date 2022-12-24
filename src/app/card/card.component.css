@@ -1,0 +1,86 @@
+.flex{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+
+.card-conteiner{
+    margin: 10px;
+    width: 280px;
+    height: 270px;
+    border-radius: 5px;
+    /* background: rgba(99, 85, 85, 0.589); */
+    overflow: hidden;
+    transition: 0.1s;
+}
+.card-conteiner:hover{
+    transform: scale(1.01);
+}
+.imagen{
+    position: relative;
+    width: 100%;
+    /* Tamaño de la imagen */
+    height: 63%;
+}
+.imagen img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 0.2s;
+}
+.imagen img:hover{
+    filter: brightness(0.8);
+}
+.creditos{
+    position: relative;
+    width: 100%;
+    font-family: 'Jost', sans-serif;
+    /* Lo que sobra de la imagen */
+    height: 35%;
+    margin-top: 5px;
+    display: flex;
+    z-index: 1;
+    justify-content: space-between;
+}
+/* Costado derecho */
+.costadoDerecho{
+    width: 80%;
+    height: 100%;
+}
+.creditos .costadoDerecho .titulo{
+    position: relative;
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+/* .creditos .costadoDerecho .titulo p{
+
+} */
+.creditos .costadoDerecho .visualizaciones{
+    width: 100%;
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 40%;
+    color: rgb(116, 102, 102);
+    display: flex;
+    flex-direction: column;
+}
+
+/* Costado izquierdo */
+
+.creditos .costadoIzquierdo{
+    position: relative;
+    width: 20%;
+}
+.creditos .costadoIzquierdo .imagenCI{
+    position: relative;
+    width: 80%;
+    height: 45%;
+}
+.creditos .costadoIzquierdo .imagenCI img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}

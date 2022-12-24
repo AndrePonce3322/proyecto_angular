@@ -1,0 +1,67 @@
+.header ul li img{
+    border-radius: 10px;
+    width: 100px;
+    height: 30px;
+    object-fit: cover;
+    margin-left: 20px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    justify-content: space-between;
+}
+li{
+    padding: 3px;
+    transition: 0.3s;
+    list-style: none;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+}
+.header ul li i{
+     font-size: 20px;
+}
+.d-flex{
+    height: 35px;
+    display: flex;
+    align-items: center;
+}
+.form-control{
+    border-radius: 0px !important;
+    width: 350px;
+}
+.navbar .container-fluid form button{
+    height: 37px;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+}
+.perfiles_personal{
+    position: relative;
+    width: 170px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.perfiles_personal .camara,.menu_personal,.campanita,.fotoperfil{
+    position: relative;
+    width: 20%;
+    height: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    border-radius: 50%;
+}
+.fotoperfil{
+    background: url("https://i.pinimg.com/564x/4a/b7/de/4ab7de9bd0c6dd3e5676d21b6ff27931.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 80%;
+
+}
